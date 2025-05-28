@@ -1,0 +1,22 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="url(#gradient)" />
+  <g filter="url(#shadow)">
+    <path d="M256 400C256 400 128 320 128 224C128 179.817 163.817 144 208 144C232 144 253.253 156.845 264 176C274.747 156.845 296 144 320 144C364.183 144 400 179.817 400 224C400 320 256 400 256 400Z" fill="white"/>
+  </g>
+  <circle cx="256" cy="256" r="240" stroke="white" stroke-opacity="0.1" stroke-width="8"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#87CEEB"/>
+      <stop offset="1" stop-color="#9370DB"/>
+    </linearGradient>
+    <filter id="shadow" x="124" y="140" width="280" height="264" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg> 

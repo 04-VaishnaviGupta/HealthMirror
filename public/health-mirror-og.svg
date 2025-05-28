@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="url(#gradient)" />
+  <g filter="url(#shadow)">
+    <path d="M400 315C400 315 300 265 300 215C300 190.147 320.147 170 345 170C360 170 372.485 178.028 380 190C387.515 178.028 400 170 415 170C439.853 170 460 190.147 460 215C460 265 400 315 400 315Z" fill="white"/>
+  </g>
+  <text x="550" y="280" fill="white" font-family="Arial" font-size="64" font-weight="bold">HealthMirror</text>
+  <text x="550" y="350" fill="white" opacity="0.9" font-family="Arial" font-size="32">AI Wellness Scanner</text>
+  <circle cx="400" cy="315" r="200" stroke="white" stroke-opacity="0.1" stroke-width="4"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#87CEEB"/>
+      <stop offset="1" stop-color="#9370DB"/>
+    </linearGradient>
+    <filter id="shadow" x="296" y="166" width="168" height="153" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg> 
